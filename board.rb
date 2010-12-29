@@ -41,7 +41,7 @@ class Board < Gtk::VBox
         :y1 => 0,
         :x2 => @width,
         :y2 => @height,
-        :fill_color_rgba => 0x444444FF})
+        :fill_color_rgba => 0x667788FF})
       @bg.lower_to_bottom
       false
       }
