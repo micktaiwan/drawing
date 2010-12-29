@@ -6,7 +6,7 @@ require 'circle'
 class Viewer < Gtk::Window
   def initialize(board)
     super()
-    set_title("Virus Wars")
+    set_title("Drawing")
     signal_connect("delete_event") { |i,a| board.destroy }
     set_default_size(600,600)
     add(board)
